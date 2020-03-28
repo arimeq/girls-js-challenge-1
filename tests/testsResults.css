@@ -1,0 +1,23 @@
+.test {
+  margin: 10px 0;
+}
+
+.test-hint button {
+  display: block
+}
+
+.test-hint {
+  font-size: 14px;
+}
+
+.tests-results {
+  list-style: none;
+}
+
+.tests-results .test-invalid .test-name {
+  color: red;
+}
+
+.tests-results :not(.test-invalid) .test-name {
+  color: green;
+}

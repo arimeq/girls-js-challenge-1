@@ -1,0 +1,40 @@
+* {
+  font-family: Lato;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding: 10px;
+}
+
+.exercise-header {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 30px;
+  font-size: 20px;
+  background-color: gray;
+}
+
+.exercise-form {
+  margin: auto;
+  max-width: 500px;
+}
+
+.exercise-form label {
+  display: block;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.exercise-form input, .exercise-form textarea {
+  width: 100%;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.exercise-form input {
+  height: 30px;
+}
